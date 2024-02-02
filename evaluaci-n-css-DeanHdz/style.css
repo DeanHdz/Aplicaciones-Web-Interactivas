@@ -1,0 +1,16 @@
+.primary{
+    background-color: #B60D14;
+}
+
+.primary-light{
+    background-color: #D60000
+}
+
+.primary-dark{
+    background-color: #871414;  
+}
+
+#banner{
+    width: 100%;
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
+}

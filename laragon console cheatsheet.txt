@@ -1,0 +1,44 @@
+composer install
+
+php artisan make:controller LoginController
+composer create-project laravel/laravel sistema-de-control-escolar-DeanHdz
+
+php artisan migrate
+php artisan make:migration create_votos_table
+
+npm run dev
+php artisan serve
+
+php artisan db:seed --class=DatabaseSeeder ????????????????????
+php artisan make:factory PrestamoFactory --model=Prestamo ?????????????????????????
+
+composer require realrashid/sweet-alert
+
+php artisan breeze:install
+composer require laravel/breeze --dev
+
+
+#1 Create app
+composer create-project laravel/laravel "example-app-without-quotes"
+#2 Instalar el paquete Laravel ui
+composer require laravel/ui
+#3 Generar andamiaje
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+#4 Instalar los paquetes de Bootstrap
+npm install
+/* for development */
+npm run dev
+/* for production */
+npm run production
+#5 Usar Bootstrap en el tema
+php artisan serve
+
+
+
+composer require laravel/breeze --dev              
+php artisan breeze:install
+
+php artisan migrate
+npm install
+npm run dev
